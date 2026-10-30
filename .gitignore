@@ -69,6 +69,7 @@
 *.png
 *.jpg
 *.jpeg
+*.svg
 *.md
 .env
 .env.*
@@ -97,5 +98,6 @@
 !/tests/fixtures/simulated-ntag213.json
 !/tests/fixtures/desfire-read.txt
 !/tests/fixtures/rrg-hardware-version.txt
+!/assets/readme-banner.svg
 !vendor/eframe/data/
 !vendor/eframe/data/icon.png
