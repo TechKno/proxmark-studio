@@ -1,0 +1,9 @@
+{
+  "organisation": "Example Organisation",
+  "site": "Example Site",
+  "format": "Wiegand26",
+  "facility": 42,
+  "first_number": 100,
+  "last_number": 9999,
+  "confirmed": false
+}

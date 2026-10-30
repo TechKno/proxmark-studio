@@ -1,0 +1,46 @@
+[=] Output will be flushed after every print.
+
+[=] No preferences file will be loaded
+[+] execute command from commandline: hw version; hw status
+
+[+] Using UART port /dev/cu.example-reader
+[+] Communicating with PM3 over USB-CDC
+[+] Max frame size: 624 bytes
+[+] Emulator memory: 8192 bytes
+[=] No history will be recorded
+[usb|script] pm3 --> hw version
+
+ [ Proxmark3 ]
+
+ [ Client ]
+  Iceman/master/abcdef1-suspect 2020-01-01 22:41:18 111222333
+  Compiler.................. Clang/LLVM Apple LLVM 21.0.0 (clang-2100.3.34.2)
+  Platform.................. OSX / aarch64
+  Readline support.......... present
+  QT GUI support............ absent
+  Native BT support......... absent
+  Python script support..... absent
+  Python SWIG support....... absent
+  Lua script support........ present ( 5.4.7 )
+  Lua SWIG support.......... present
+
+ [ Model ]
+  Firmware.................. PM3 GENERIC
+
+ [ ARM ]
+  Bootrom.... Iceman/master/abcdef1-suspect 2020-01-02 17:28:02 111222333
+  OS......... Iceman/master/abcdef1-suspect 2020-01-02 17:29:18 111222333
+  Compiler... GCC 14.3.1 20250623
+
+ [ FPGA ]
+ fpga_pm3_hf.ncd image 2s30vq100 01-01-2020 22:39:11
+ fpga_pm3_lf.ncd image 2s30vq100 01-01-2020 22:39:11
+ fpga_pm3_felica.ncd image 2s30vq100 01-01-2020 22:39:11
+ fpga_pm3_hf_15.ncd image 2s30vq100 01-01-2020 22:39:11
+
+ [ Hardware ]
+  --= uC: AT91SAM7S512 Rev X
+  --= Embedded Processor: ARM7TDMI
+  --= Internal SRAM size: 64K bytes
+  --= Architecture identifier: AT91SAM7Sxx Series
+  --= Embedded flash memory 512K bytes ( 83% used )

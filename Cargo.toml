@@ -1,0 +1,49 @@
+[package]
+name = "proxmark-studio"
+version = "0.9.0"
+edition = "2021"
+rust-version = "1.99"
+description = "A capability-aware desktop workspace for the RRG/Iceman Proxmark3 client"
+license = "MIT"
+
+[dependencies]
+eframe = { version = "0.31.1", default-features = false, features = ["accesskit", "default_fonts", "glow", "x11", "wayland"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serialport = { version = "4.7", default-features = false }
+directories = "6"
+zeroize = { version = "1.8", features = ["derive"] }
+regex = "1.11"
+
+tempfile = "3"
+portable-pty = "0.9"
+keyring = { version = "3.6", features = ["apple-native", "windows-native"] }
+sha2 = "0.10"
+libc = "0.2"
+vt100 = "0.16"
+rfd = "=0.15.4"
+
+aes-gcm = { version = "=0.10.3", features = ["zeroize"] }
+argon2 = "=0.5.3"
+rand = "=0.8.5"
+
+[target.'cfg(target_os = "macos")'.dependencies]
+muda = "=0.17.1"
+arboard = "=3.7.0"
+objc2 = "=0.6.5"
+objc2-app-kit = { version = "=0.3.2", default-features = false, features = ["std", "NSColor", "NSColorSpace", "NSWorkspace", "NSAccessibility", "objc2-core-foundation"] }
+
+[profile.release]
+lto = "thin"
+strip = true
+
+[[bin]]
+name = "proxmark-studio"
+path = "src/main.rs"
+
+[[bin]]
+name = "mock-pm3"
+path = "src/mock_pm3.rs"
+
+[patch.crates-io]
+eframe = { path = "vendor/eframe" }

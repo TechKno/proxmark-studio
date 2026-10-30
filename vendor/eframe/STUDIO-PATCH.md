@@ -1,0 +1,1 @@
+Local eframe 0.31.1 patch: initialise AccessKit for secondary native Glow windows, including Settings. Upstream initialises only the root window. The event routing already handles all window IDs. Original MIT/Apache licences are included. No upstream code is otherwise changed.

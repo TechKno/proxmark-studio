@@ -1,0 +1,1 @@
+These are synthetic examples. CSV credentials are test values. Alias JSON contains no keys and requires matching entries that you explicitly store in the OS vault. A Classic map must cover every sector needed by the selected operation. Use simulation for practice; no example is a real card backup.

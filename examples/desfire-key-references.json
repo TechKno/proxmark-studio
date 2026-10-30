@@ -1,0 +1,9 @@
+[
+  {
+    "aid": "112233",
+    "key_number": 0,
+    "algorithm": "Aes",
+    "channel": "Ev1",
+    "alias": "lab-app-key"
+  }
+]

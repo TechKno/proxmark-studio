@@ -1,0 +1,9 @@
+[
+  {
+    "sector": 0,
+    "read_type": "A",
+    "read_alias": "lab-sector-0-a",
+    "write_type": "B",
+    "write_alias": "lab-sector-0-b"
+  }
+]
